@@ -1,0 +1,45 @@
+{
+  "name": "react-scroll-wrapper",
+  "version": "1.0.0",
+  "description": "React bidirectional scroll wrapper to make components with infinite scroll",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint  --ext js,jsx .",
+    "lint:fix": "eslint  --ext js,jsx --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvaDey/react-scroll-wrapper.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "infinite-scroll",
+    "react-scroll-wrapper",
+    "scroll-wrapper"
+  ],
+  "author": "Valentin Ivanenko - vi@ivadey.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvaDey/react-scroll-wrapper/issues"
+  },
+  "homepage": "https://github.com/IvaDey/react-scroll-wrapper#readme",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

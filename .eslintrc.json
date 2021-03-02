@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:import/react"
+  ],
+  "rules": {
+    "react/display-name": 0,
+    "no-console": "warn",
+    "no-bitwise": 0,
+    "no-unused-vars": "warn",
+    "no-param-reassign": "warn",
+    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "prefer-destructuring": ["error", {
+      "array": false,
+      "object": true
+    }, {
+      "enforceForRenamedProperties": false
+    }],
+    "react/no-array-index-key": 0,
+    "react/jsx-no-bind": "error",
+    "react/jsx-props-no-spreading": 0,
+    "prefer-const": "error",
+    "prefer-template": "warn",
+    "indent": ["error", 2],
+    "quotes": [
+      "error",
+      "single",
+      // To allow Template Literals inside Component props.
+      // ex. <Component width={`50%`}/>
+      //
+      { "allowTemplateLiterals": true }
+    ],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
+  }
+}
